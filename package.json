@@ -1,0 +1,25 @@
+{
+  "name": "simple-api-querier-website",
+  "version": "1.0.0",
+  "description": "A simple website that queries the inputted url and outputs the response. This can be used as a test app while setting up network security",
+  "main": "index.js",
+  "scripts": {
+    "start-simple-website": "node simple-website/server.js",
+    "start-simple-api": "node simple-api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solenoden/simple-api-querier-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solenoden/simple-api-querier-website/issues"
+  },
+  "homepage": "https://github.com/Solenoden/simple-api-querier-website#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
